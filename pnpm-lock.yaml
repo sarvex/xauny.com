@@ -24,7 +24,7 @@ devDependencies:
     version: 0.10.2
   '@builder.io/qwik':
     specifier: 1.5.5
-    version: 1.5.5(@types/node@20.12.12)(undici@6.3.0)
+    version: 1.5.5(@types/node@20.12.12)(undici@6.11.1)
   '@builder.io/qwik-city':
     specifier: 1.5.5
     version: 1.5.5(@types/node@20.12.12)
@@ -95,8 +95,8 @@ devDependencies:
     specifier: 5.4.5
     version: 5.4.5
   undici:
-    specifier: 6.3.0
-    version: 6.3.0
+    specifier: 6.11.1
+    version: 6.11.1
   vercel:
     specifier: 34.2.3
     version: 34.2.3
@@ -1658,7 +1658,7 @@ packages:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.3.0
+      undici: 6.11.1
       vfile: 6.0.1
       vite: 5.0.13(@types/node@20.12.12)
       vite-imagetools: 6.2.9
@@ -1684,7 +1684,7 @@ packages:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.3.0
+      undici: 6.11.1
       vfile: 6.0.1
       vite: 5.2.11(@types/node@20.12.12)
       vite-imagetools: 6.2.9
@@ -1700,7 +1700,7 @@ packages:
       - supports-color
       - terser
 
-  /@builder.io/qwik@1.5.5(@types/node@20.12.12)(undici@6.3.0):
+  /@builder.io/qwik@1.5.5(@types/node@20.12.12)(undici@6.11.1):
     resolution: {integrity: sha512-ZgeWVfkgdBcv/SwfB0RJtSR6YCVBnFtZ4dH1yxDqeShzgFrVqeVIE7l7A5wwb0hXtA6ESxskLgui6ayZlKSnWQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -1708,7 +1708,7 @@ packages:
       undici: '*'
     dependencies:
       csstype: 3.1.3
-      undici: 6.3.0
+      undici: 6.11.1
       vite: 5.2.11(@types/node@20.12.12)
     transitivePeerDependencies:
       - '@types/node'
@@ -2409,6 +2409,7 @@ packages:
   /@fastify/busboy@2.0.0:
     resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
     engines: {node: '>=14'}
+    dev: true
 
   /@humanwhocodes/config-array@0.13.0:
     resolution: {integrity: sha512-DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==}
@@ -2780,7 +2781,7 @@ packages:
       '@builder.io/qwik': ^1.4.0
       '@builder.io/qwik-city': ^1.4.0
     dependencies:
-      '@builder.io/qwik': 1.5.5(@types/node@20.12.12)(undici@6.3.0)
+      '@builder.io/qwik': 1.5.5(@types/node@20.12.12)(undici@6.11.1)
       '@builder.io/qwik-city': 1.5.5(@types/node@20.12.12)
       decode-formdata: 0.7.2
     dev: false
@@ -2839,7 +2840,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
     dependencies:
-      '@builder.io/qwik': 1.5.5(@types/node@20.12.12)(undici@6.3.0)
+      '@builder.io/qwik': 1.5.5(@types/node@20.12.12)(undici@6.11.1)
     dev: false
 
   /@radix-ui/primitive@1.0.1:
@@ -4261,6 +4262,7 @@ packages:
 
   /@types/ms@0.7.31:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
+    requiresBuild: true
 
   /@types/node-fetch@2.6.4:
     resolution: {integrity: sha512-1ZX9fcN4Rvkvgv4E6PAY5WXUFWFcRWxZa3EW83UjycOB9ljJCedb2CupIP4RZMEwF/M3eTcCihbBRgwtGbg5Rg==}
@@ -4479,7 +4481,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.5.5(@types/node@20.12.12)(undici@6.3.0)
+      '@builder.io/qwik': 1.5.5(@types/node@20.12.12)(undici@6.11.1)
     dev: false
 
   /@vercel/build-utils@8.2.0:
@@ -10481,7 +10483,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.5.5(@types/node@20.12.12)(undici@6.3.0)
+      '@builder.io/qwik': 1.5.5(@types/node@20.12.12)(undici@6.11.1)
       '@storybook/builder-vite': 8.1.3(prettier@3.2.5)(typescript@5.4.5)(vite@5.0.13)
       '@storybook/docs-tools': 7.6.19
       magic-string: 0.30.10
@@ -11074,11 +11076,9 @@ packages:
       '@fastify/busboy': 2.0.0
     dev: true
 
-  /undici@6.3.0:
-    resolution: {integrity: sha512-zkSMOXs2topAR1LF0PxAaNNvhdX4LYEcmRMJLMh3mjgfZpBtc/souXOp4aYiR5Q46HrBPA2/8DkEZhD3eNFE1Q==}
+  /undici@6.11.1:
+    resolution: {integrity: sha512-KyhzaLJnV1qa3BSHdj4AZ2ndqI0QWPxYzaIOio0WzcEJB9gvuysprJSLtpvc2D9mhR9jPDUk7xlJlZbH2KR5iw==}
     engines: {node: '>=18.0'}
-    dependencies:
-      '@fastify/busboy': 2.0.0
 
   /unicode-canonical-property-names-ecmascript@2.0.0:
     resolution: {integrity: sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==}
