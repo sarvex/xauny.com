@@ -24,10 +24,10 @@ devDependencies:
     version: 0.10.3
   '@builder.io/qwik':
     specifier: 1.12.1
-    version: 1.12.1(vite@5.4.15)
+    version: 1.12.1(vite@5.4.16)
   '@builder.io/qwik-city':
     specifier: 1.12.1
-    version: 1.12.1(typescript@5.4.5)(vite@5.4.15)
+    version: 1.12.1(typescript@5.4.5)(vite@5.4.16)
   '@playwright/test':
     specifier: 1.51.1
     version: 1.51.1
@@ -42,13 +42,13 @@ devDependencies:
     version: 8.6.10(react-dom@18.2.0)(react@18.2.0)(storybook@8.6.10)
   '@storybook/builder-vite':
     specifier: 8.6.10
-    version: 8.6.10(storybook@8.6.10)(vite@5.4.15)
+    version: 8.6.10(storybook@8.6.10)(vite@5.4.16)
   '@storybook/html':
     specifier: 8.6.10
     version: 8.6.10(storybook@8.6.10)
   '@storybook/html-vite':
     specifier: 8.6.10
-    version: 8.6.10(storybook@8.6.10)(vite@5.4.15)
+    version: 8.6.10(storybook@8.6.10)(vite@5.4.16)
   '@types/eslint':
     specifier: 8.56.12
     version: 8.56.12
@@ -87,7 +87,7 @@ devDependencies:
     version: 8.6.10(prettier@3.5.3)
   storybook-framework-qwik:
     specifier: 0.4.1
-    version: 0.4.1(@builder.io/qwik@1.12.1)(storybook@8.6.10)(typescript@5.4.5)(vite@5.4.15)
+    version: 0.4.1(@builder.io/qwik@1.12.1)(storybook@8.6.10)(typescript@5.4.5)(vite@5.4.16)
   tailwindcss:
     specifier: 4.1.2
     version: 4.1.2
@@ -101,11 +101,11 @@ devDependencies:
     specifier: 34.4.0
     version: 34.4.0
   vite:
-    specifier: 5.4.15
-    version: 5.4.15(@types/node@20.15.0)
+    specifier: 5.4.16
+    version: 5.4.16(@types/node@20.15.0)
   vite-tsconfig-paths:
     specifier: 4.3.2
-    version: 4.3.2(typescript@5.4.5)(vite@5.4.15)
+    version: 4.3.2(typescript@5.4.5)(vite@5.4.16)
   vitest:
     specifier: 1.6.1
     version: 1.6.1(@types/node@20.15.0)(@vitest/ui@1.6.1)
@@ -157,7 +157,7 @@ packages:
     hasBin: true
     dev: true
 
-  /@builder.io/qwik-city@1.12.1(typescript@5.4.5)(vite@5.4.15):
+  /@builder.io/qwik-city@1.12.1(typescript@5.4.5)(vite@5.4.16):
     resolution: {integrity: sha512-YLW+33PZVoc4O30J99Fs3uNNpi7BszPzaITKoW66Sphju5Ptn6HDQkfnBu2sHFB0bh8hWLWatAjOM1HXg/C96Q==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
@@ -170,7 +170,7 @@ packages:
       undici: 6.21.2
       valibot: 1.0.0(typescript@5.4.5)
       vfile: 6.0.2
-      vite: 5.4.15(@types/node@20.15.0)
+      vite: 5.4.16(@types/node@20.15.0)
       vite-imagetools: 7.0.5
       zod: 3.22.4
     transitivePeerDependencies:
@@ -178,7 +178,7 @@ packages:
       - supports-color
       - typescript
 
-  /@builder.io/qwik@1.12.1(vite@5.4.15):
+  /@builder.io/qwik@1.12.1(vite@5.4.16):
     resolution: {integrity: sha512-fL+GuzJ/fp9OwhegPkn2dZXp4RjWnY0mNhgg7OJDS2qxftLmuJHs4sSJZ9ayvLRBVUNVPVX92u+SodiO5GDsnQ==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -186,7 +186,7 @@ packages:
       vite: ^5
     dependencies:
       csstype: 3.1.3
-      vite: 5.4.15(@types/node@20.15.0)
+      vite: 5.4.16(@types/node@20.15.0)
 
   /@cspotcode/source-map-support@0.8.1:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -982,8 +982,8 @@ packages:
       '@builder.io/qwik': ^1.9.0 || ^2.0.0
       '@builder.io/qwik-city': ^1.9.0 || ^2.0.0
     dependencies:
-      '@builder.io/qwik': 1.12.1(vite@5.4.15)
-      '@builder.io/qwik-city': 1.12.1(typescript@5.4.5)(vite@5.4.15)
+      '@builder.io/qwik': 1.12.1(vite@5.4.16)
+      '@builder.io/qwik-city': 1.12.1(typescript@5.4.5)(vite@5.4.16)
       decode-formdata: 0.8.0
       valibot: 1.0.0(typescript@5.4.5)
     transitivePeerDependencies:
@@ -1036,7 +1036,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
     dependencies:
-      '@builder.io/qwik': 1.12.1(vite@5.4.15)
+      '@builder.io/qwik': 1.12.1(vite@5.4.16)
     dev: false
 
   /@rollup/pluginutils@4.2.1:
@@ -1360,7 +1360,7 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/builder-vite@8.6.10(storybook@8.6.10)(vite@5.4.15):
+  /@storybook/builder-vite@8.6.10(storybook@8.6.10)(vite@5.4.16):
     resolution: {integrity: sha512-RXT4uflQSgXSHbWG+Z2Im5r7Ji1wj0Lyo6hVJZIBLEbaIbjfvPtP9CXlhK/z1h90cegHTnkYDd01RHwgmlKRrg==}
     peerDependencies:
       storybook: ^8.6.10
@@ -1370,7 +1370,7 @@ packages:
       browser-assert: 1.2.1
       storybook: 8.6.10(prettier@3.5.3)
       ts-dedent: 2.2.0
-      vite: 5.4.15(@types/node@20.15.0)
+      vite: 5.4.16(@types/node@20.15.0)
     dev: true
 
   /@storybook/channels@7.6.19:
@@ -1496,13 +1496,13 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/html-vite@8.6.10(storybook@8.6.10)(vite@5.4.15):
+  /@storybook/html-vite@8.6.10(storybook@8.6.10)(vite@5.4.16):
     resolution: {integrity: sha512-advFtaxg3DEUXQhD6fSZMUWTYIfmCqlp2nS7npVgOufGlI27Yk8qb//2r4EYzs1ntyoP4uN1Zuispiejun3txQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       storybook: ^8.6.10
     dependencies:
-      '@storybook/builder-vite': 8.6.10(storybook@8.6.10)(vite@5.4.15)
+      '@storybook/builder-vite': 8.6.10(storybook@8.6.10)(vite@5.4.16)
       '@storybook/html': 8.6.10(storybook@8.6.10)
       magic-string: 0.30.10
       storybook: 8.6.10(prettier@3.5.3)
@@ -2031,7 +2031,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '*'
     dependencies:
-      '@builder.io/qwik': 1.12.1(vite@5.4.15)
+      '@builder.io/qwik': 1.12.1(vite@5.4.16)
     dev: false
 
   /@vercel/build-utils@8.3.2:
@@ -5917,19 +5917,19 @@ packages:
     resolution: {integrity: sha512-aFZ19IgVmhdB2uX599ve2kE6BIE3YMnQ6Gp6BURhW/oIzpXGKr878TQfAQZn1+i0Flcc/UKUy1gOlcfaUBCryg==}
     dev: true
 
-  /storybook-framework-qwik@0.4.1(@builder.io/qwik@1.12.1)(storybook@8.6.10)(typescript@5.4.5)(vite@5.4.15):
+  /storybook-framework-qwik@0.4.1(@builder.io/qwik@1.12.1)(storybook@8.6.10)(typescript@5.4.5)(vite@5.4.16):
     resolution: {integrity: sha512-uPrxOYGPs2I8NRu7u2hUW33MGAZrWMM6wxT9chV6CtL9Hj25x8v5hsgoNQf4Me1TJ2YlL4Z6LfiX9xfE8a8s5g==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.12.1(vite@5.4.15)
-      '@storybook/builder-vite': 8.6.10(storybook@8.6.10)(vite@5.4.15)
+      '@builder.io/qwik': 1.12.1(vite@5.4.16)
+      '@storybook/builder-vite': 8.6.10(storybook@8.6.10)(vite@5.4.16)
       '@storybook/docs-tools': 7.6.19
       magic-string: 0.30.10
       react-docgen-typescript: 2.2.2(typescript@5.4.5)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.12.1(typescript@5.4.5)(vite@5.4.15)
+      '@builder.io/qwik-city': 1.12.1(typescript@5.4.5)(vite@5.4.16)
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -6533,7 +6533,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.1
       picocolors: 1.1.1
-      vite: 5.4.15(@types/node@20.15.0)
+      vite: 5.4.16(@types/node@20.15.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -6546,7 +6546,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.3.2(typescript@5.4.5)(vite@5.4.15):
+  /vite-tsconfig-paths@4.3.2(typescript@5.4.5)(vite@5.4.16):
     resolution: {integrity: sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==}
     peerDependencies:
       vite: '*'
@@ -6557,14 +6557,14 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.4.5)
-      vite: 5.4.15(@types/node@20.15.0)
+      vite: 5.4.16(@types/node@20.15.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@5.4.15(@types/node@20.15.0):
-    resolution: {integrity: sha512-6ANcZRivqL/4WtwPGTKNaosuNJr5tWiftOC7liM7G9+rMb8+oeJeyzymDu4rTN93seySBmbjSfsS3Vzr19KNtA==}
+  /vite@5.4.16(@types/node@20.15.0):
+    resolution: {integrity: sha512-Y5gnfp4NemVfgOTDQAunSD4346fal44L9mszGGY/e+qxsRT5y1sMlS/8tiQ8AFAp+MFgYNSINdfEchJiPm41vQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -6645,7 +6645,7 @@ packages:
       strip-literal: 2.1.0
       tinybench: 2.5.1
       tinypool: 0.8.4
-      vite: 5.4.15(@types/node@20.15.0)
+      vite: 5.4.16(@types/node@20.15.0)
       vite-node: 1.6.1(@types/node@20.15.0)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
