@@ -95,8 +95,8 @@ devDependencies:
     specifier: 5.4.5
     version: 5.4.5
   undici:
-    specifier: 6.21.2
-    version: 6.21.2
+    specifier: 7.10.0
+    version: 7.10.0
   vercel:
     specifier: 34.4.0
     version: 34.4.0
@@ -167,7 +167,7 @@ packages:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.3.2
-      undici: 6.21.2
+      undici: 7.10.0
       valibot: 1.0.0(typescript@5.4.5)
       vfile: 6.0.2
       vite: 5.4.15(@types/node@20.15.0)
@@ -6343,9 +6343,9 @@ packages:
       '@fastify/busboy': 2.0.0
     dev: true
 
-  /undici@6.21.2:
-    resolution: {integrity: sha512-uROZWze0R0itiAKVPsYhFov9LxrPMHLMEQFszeI2gCN6bnIIZ8twzBCJcN2LJrBBLfrP0t1FW0g+JmKVl8Vk1g==}
-    engines: {node: '>=18.17'}
+  /undici@7.10.0:
+    resolution: {integrity: sha512-u5otvFBOBZvmdjWLVW+5DAc9Nkq8f24g0O9oY7qw2JVIF1VocIFoyz9JFkuVOS2j41AufeO0xnlweJ2RLT8nGw==}
+    engines: {node: '>=20.18.1'}
 
   /unified@11.0.4:
     resolution: {integrity: sha512-apMPnyLjAX+ty4OrNap7yumyVAMlKx5IWU2wlzzUdYJO9A8f1p9m/gywF/GM2ZDFcjQPrx59Mc90KwmxsoklxQ==}
